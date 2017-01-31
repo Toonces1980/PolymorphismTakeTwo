@@ -51,4 +51,21 @@ public class PetFactoryTest {
         assertEquals(expected,actual);
     }
 
+    @Test
+    public void addPetToListTest() {
+        Integer expected = 1;
+        factory.addPetToList(new Dog());
+        Integer actual = factory.listOfPets.size();
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void petMakerTest() {
+        Pet expected = new Dog();
+        Pet actual = factory.petMaker("Dog", "woofer");
+        assertEquals(expected,actual);
+
+
+    }
+
 }

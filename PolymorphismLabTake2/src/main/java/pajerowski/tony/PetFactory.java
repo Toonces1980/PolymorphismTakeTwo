@@ -21,5 +21,12 @@ public class PetFactory {
 
     public String getNameOfPet() { return null; }
 
+    public void addPetToList(Pet petToAdd) {
+
+    }
+
+    public Pet petMaker(String typeOfPet, String nameOfPet) {
+        return null;
+    }
 
 }
