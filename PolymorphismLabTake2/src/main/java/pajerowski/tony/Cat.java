@@ -6,6 +6,6 @@ package pajerowski.tony;
 public class Cat extends Pet{
     @Override
     public String speak() {
-        return null;
+        return "ooh Meow!";
     }
 }

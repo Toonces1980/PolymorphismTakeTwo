@@ -5,11 +5,17 @@ package pajerowski.tony;
  */
 public class Display {
 
-    public void promptNumberOfPets() {}
+    public void promptNumberOfPets() {
+        System.out.println("Enter the number of pets");
+    }
 
-    public void promptTypeOfPet() {}
+    public void promptTypeOfPet() {
+        System.out.println("Enter the type of the pet");
+    }
 
-    public void promptNameOfPet() {}
+    public void promptNameOfPet() {
+        System.out.println("Enter the name of the pet");
+    }
 
 
 }

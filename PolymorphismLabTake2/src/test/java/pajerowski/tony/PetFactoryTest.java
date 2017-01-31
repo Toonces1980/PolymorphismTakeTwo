@@ -23,49 +23,14 @@ public class PetFactoryTest {
         assertEquals(expected,actual);
     }
 
-    @Test
-    public void getTypeOfPetDogTest(){
-        String expected = "Dog";
-        String actual = factory.getTypeOfPet();
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void getTypeOfPetCatTest(){
-        String expected = "Cat";
-        String actual = factory.getTypeOfPet();
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void getTypeOfPetGoldfishTest(){
-        String expected = "Goldfish";
-        String actual = factory.getTypeOfPet();
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void getNameOfPetTest(){
-        String expected = "Fluffy";
-        String actual = factory.getNameOfPet();
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void addPetToListTest() {
-        Integer expected = 1;
-        factory.addPetToList(new Dog());
-        Integer actual = factory.listOfPets.size();
-        assertEquals(expected,actual);
-    }
-
-    @Test
-    public void petMakerTest() {
-        Pet expected = new Dog();
-        Pet actual = factory.petMaker("Dog", "woofer");
-        assertEquals(expected,actual);
-
-
-    }
+//    @Test
+//    public void petMakerTest() {
+//        String expected = "woofer";
+//        factory.petMaker("Dog", "woofer");
+//        String actual =
+//        assertEquals(expected,actual);
+//
+//
+//    }
 
 }

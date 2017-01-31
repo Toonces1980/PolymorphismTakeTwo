@@ -6,7 +6,7 @@ package pajerowski.tony;
 public class Goldfish extends Pet{
     @Override
     public String speak() {
-        return null;
+        return "glub glub glub";
     }
 
 }
